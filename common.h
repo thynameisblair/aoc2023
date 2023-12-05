@@ -1,8 +1,12 @@
 #pragma once
 
+// file i/o
 #include <fstream> // ifstream
 #include <iostream> // cout
-#include <string> // getline
+
+// containers
+#include <string>
+#include <unordered_map>
 #include <vector>
 
 auto ReadLines(const std::string& in)
